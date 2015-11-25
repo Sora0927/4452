@@ -1,0 +1,28 @@
+[ 2015-09-22T15:21:42+08:00 ] ::1 /index.php?g=Admin&m=nav&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003406s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tt_nav` [ RunTime:0.0214s ]
+SQL: SHOW COLUMNS FROM `tt_nav_cat` [ RunTime:0.0254s ]
+SQL: UPDATE `tt_nav` SET `cid`='1',`parentid`='0',`label`='金牌排名',`href`='/index.php?m=phb&a=index&id=16',`target`='',`icon`='',`status`='1',`path`='0-6' WHERE `id` = 6 [ RunTime:0.0007s ]
+
+[ 2015-09-22T16:08:28+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=index&menuid=100
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2015-09-22T16:19:32+08:00 ] ::1 /index.php?g=Admin&m=nav&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003563s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tt_nav` [ RunTime:0.0195s ]
+SQL: SHOW COLUMNS FROM `tt_nav_cat` [ RunTime:0.0233s ]
+SQL: INSERT INTO `tt_nav` (`cid`,`parentid`,`label`,`href`,`target`,`icon`,`status`) VALUES ('1','2','讲座','a:2:{s:6:\"action\";s:17:\"Portal/List/index\";s:5:\"param\";a:1:{s:2:\"id\";s:1:\"7\";}}','','','1') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tt_nav` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' D:\WWW\4452\application\Admin\Controller\NavController.class.php 第 113 行.
+SQL: UPDATE `tt_nav` SET `cid`='1',`parentid`='2',`label`='讲座',`href`='a:2:{s:6:\"action\";s:17:\"Portal/List/index\";s:5:\"param\";a:1:{s:2:\"id\";s:1:\"7\";}}',`target`='',`icon`='',`status`='1',`path`='0-2-17' WHERE `id` = 17 [ RunTime:0.0004s ]
+

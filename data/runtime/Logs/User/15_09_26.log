@@ -1,0 +1,1544 @@
+[ 2015-09-26T08:13:01+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003439s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T08:13:06+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003185s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T08:13:31+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T08:13:35+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T08:19:25+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003042s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T08:20:15+08:00 ] ::1 /index.php?g=user&m=post&a=index
+ERR: 模板不存在:tpl/simplebootx/User/Post/index.html
+
+[ 2015-09-26T08:21:51+08:00 ] ::1 /index.php?g=User&m=AdminPost&a=add&term=
+ERR: 无法加载控制器:AdminPost
+
+[ 2015-09-26T08:23:04+08:00 ] ::1 /index.php?g=User&m=Post&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002553s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0119s ]
+
+[ 2015-09-26T08:23:08+08:00 ] ::1 /index.php?g=User&m=Post&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined index: ADMIN_ID D:\WWW\4452\application\Common\Common\function.php 第 8 行.
+SQL: INSERT INTO `tt_posts` (`post_modified`,`post_status`,`istop`,`recommended`,`post_title`,`isactive`,`activestarttime`,`activefinishtime`,`activecount`,`post_keywords`,`post_source`,`post_excerpt`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2015-09-26 08:22:56','1','0','0','ttt','0','2015-09-26 08:22:56','2015-09-26 08:22:56','0','tt','tt','tt','<p>tttt</p>','2015-09-26 08:23:08','','{\"thumb\":\"\"}') [ RunTime:0.0006s ]
+SQL: INSERT INTO `tt_term_relationships` (`term_id`,`object_id`) VALUES ('7','20') [ RunTime:0.0004s ]
+
+[ 2015-09-26T08:34:15+08:00 ] ::1 /index.php?g=User&m=Post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2015-09-26T08:34:16+08:00 ] ::1 /index.php?g=User&m=Post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2015-09-26T09:20:26+08:00 ] ::1 /index.php?g=User&m=Post&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.post_author' in 'where clause'
+
+[ 2015-09-26T09:21:08+08:00 ] ::1 /index.php?g=User&m=Post&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002809s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0110s ]
+SQL: INSERT INTO `tt_posts` (`post_modified`,`post_status`,`istop`,`recommended`,`post_title`,`isactive`,`activestarttime`,`activefinishtime`,`activecount`,`post_keywords`,`post_source`,`post_excerpt`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2015-09-26 09:20:55','1','0','0','dsad','0','2015-09-26 09:20:55','2015-09-26 09:20:55','0','das','dsa','dsa','<p>dsad</p>','2015-09-26 09:21:08','3','{\"thumb\":\"\"}') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tt_term_relationships` (`term_id`,`object_id`) VALUES ('7','21') [ RunTime:0.0004s ]
+
+[ 2015-09-26T09:22:42+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:22:44+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002827s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:22:49+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:23:16+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002630s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:23:18+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:26:07+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003004s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:26:15+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:28:59+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003851s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:29:49+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004024s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:30:29+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:30:42+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002709s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:30:54+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003226s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:31:06+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003187s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:31:21+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003221s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:32:17+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:33:14+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003038s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:34:09+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002684s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:36:25+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:41:45+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003348s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:45:33+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004025s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:45:52+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004062s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:45:57+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:46:03+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002663s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:46:13+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002802s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:46:18+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002589s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:46:40+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:48:04+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003807s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:48:12+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003166s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:49:58+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004861s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:51:28+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003216s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:51:34+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002812s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:51:53+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003005s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:51:54+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:00+08:00 ] ::1 /index.php?g=User&m=Post&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002302s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0095s ]
+
+[ 2015-09-26T09:52:04+08:00 ] ::1 /index.php?g=User&m=Post&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003142s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0099s ]
+SQL: INSERT INTO `tt_posts` (`post_modified`,`post_status`,`istop`,`recommended`,`post_title`,`isactive`,`activestarttime`,`activefinishtime`,`activecount`,`post_keywords`,`post_source`,`post_excerpt`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2015-09-26 09:51:53','1','0','0','dsfgh','0','2015-09-26 09:51:53','2015-09-26 09:51:53','0','dasa','dasda','dadd','<p>sadad</p>','2015-09-26 09:52:04','3','{\"thumb\":\"\"}') [ RunTime:0.0006s ]
+SQL: INSERT INTO `tt_term_relationships` (`term_id`,`object_id`) VALUES ('8','22') [ RunTime:0.0004s ]
+
+[ 2015-09-26T09:52:07+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003013s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:09+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:11+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002879s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:13+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002960s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:15+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002226s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:17+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002748s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:19+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:22+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002380s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:25+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:27+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002665s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:29+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:32+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:34+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002620s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:36+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:39+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:41+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003100s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:43+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002239s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:46+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:48+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:50+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003113s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:53+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002625s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:55+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002795s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:52:57+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:00+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:02+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:04+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:07+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002687s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:09+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:11+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:14+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:16+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:18+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002776s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:21+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:23+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:25+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:28+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:30+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:32+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002589s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:35+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:37+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:38+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003104s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:40+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:45+08:00 ] ::1 /index.php?g=User&m=Post&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002258s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0096s ]
+SQL: DELETE FROM `tt_term_relationships` WHERE `object_id` = 22 AND `term_id` NOT IN ('8') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_term_relationships` WHERE `object_id` = 22 AND `term_id` = '8' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `status`='1' WHERE `object_id` = 22 AND `term_id` = '8' [ RunTime:0.0003s ]
+SQL: UPDATE `tt_posts` SET `post_modified`='2015-09-26 09:51:53',`post_status`='1',`istop`='0',`recommended`='0',`post_title`='dsfgh',`activestarttime`='2015-09-26 09:53:40',`activefinishtime`='2015-09-26 09:53:40',`activecount`='0',`post_keywords`='dasa',`post_source`='dasdad',`post_excerpt`='dadd',`post_content`='<p>sadad1235678</p>',`smeta`='{\"thumb\":\"\"}' WHERE `id` = '22' [ RunTime:0.0004s ]
+
+[ 2015-09-26T09:53:46+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:49+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002727s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:57+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002463s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:53:59+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:00+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:02+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002498s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:04+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002532s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:07+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002671s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:09+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:11+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:14+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:16+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002380s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:18+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002481s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:21+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003061s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:23+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:25+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:27+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:33+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002359s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:36+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:38+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:40+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:43+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002614s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:45+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002731s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:47+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:50+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:52+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:54+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:57+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:54:59+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002644s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:55:02+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003248s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:56:00+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003203s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:56:02+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:56:03+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003010s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:56:05+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002758s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:57:02+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002714s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:57:22+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002833s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:58:29+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003317s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:58:38+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:58:59+08:00 ] ::1 /index.php?g=User&m=Post&a=listorders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0093s ]
+ERR: Think\Controller:_listorders方法不存在！
+
+[ 2015-09-26T09:59:05+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004353s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:59:25+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004058s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T09:59:52+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003211s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:00:12+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003360s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:00:16+08:00 ] ::1 /index.php?g=User&m=Post&a=delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002451s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0133s ]
+SQL: UPDATE `tt_term_relationships` SET `status`='0' WHERE ( tid in (22) ) [ RunTime:0.0004s ]
+
+[ 2015-09-26T10:00:16+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:00:22+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002819s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:01:21+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:01:30+08:00 ] ::1 /index.php?g=User&m=Post&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0091s ]
+
+[ 2015-09-26T10:01:34+08:00 ] ::1 /index.php?g=User&m=Post&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002276s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0101s ]
+SQL: INSERT INTO `tt_posts` (`post_modified`,`post_status`,`istop`,`recommended`,`post_title`,`isactive`,`activestarttime`,`activefinishtime`,`activecount`,`post_keywords`,`post_source`,`post_excerpt`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2015-09-26 10:01:21','0','0','0','测试','0','2015-09-26 10:01:21','2015-09-26 10:01:21','0','测试','测试','测试','<p>测试测试</p>','2015-09-26 10:01:34','3','{\"thumb\":\"\"}') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tt_term_relationships` (`term_id`,`object_id`) VALUES ('3','23') [ RunTime:0.0003s ]
+
+[ 2015-09-26T10:01:36+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:01:46+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002701s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:01:48+08:00 ] ::1 /index.php?g=User&m=Post&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0098s ]
+SQL: DELETE FROM `tt_term_relationships` WHERE `object_id` = 23 AND `term_id` NOT IN ('7') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_term_relationships` WHERE `object_id` = 23 AND `term_id` = '7' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tt_term_relationships` (`term_id`,`object_id`) VALUES ('7','23') [ RunTime:0.0002s ]
+SQL: UPDATE `tt_posts` SET `post_modified`='2015-09-26 10:01:21',`post_status`='0',`istop`='0',`recommended`='0',`post_title`='测试',`activestarttime`='2015-09-26 10:01:45',`activefinishtime`='2015-09-26 10:01:45',`activecount`='0',`post_keywords`='测试',`post_source`='测试',`post_excerpt`='测试',`post_content`='<p>测试测试</p>',`smeta`='{\"thumb\":\"\"}' WHERE `id` = '23' [ RunTime:0.0004s ]
+
+[ 2015-09-26T10:01:50+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:01:54+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002503s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:02:07+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003013s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:02:09+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:04:31+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003137s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:04:33+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002931s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:04:35+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:04:37+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002837s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:04:53+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002604s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:05:35+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003364s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:05:46+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002908s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:11:25+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002527s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:12:02+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002876s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:12:04+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002386s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:12:08+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002852s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:13:39+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002827s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:13:43+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002724s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:13:45+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003261s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:13:48+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:13:50+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002872s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:13:54+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002903s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:14:06+08:00 ] ::1 /index.php?g=User&m=Post&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002971s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0141s ]
+SQL: INSERT INTO `tt_posts` (`post_modified`,`post_status`,`istop`,`recommended`,`post_title`,`isactive`,`activestarttime`,`activefinishtime`,`activecount`,`post_keywords`,`post_source`,`post_excerpt`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('2015-09-26 10:13:53','0','0','0','大大啊活动','1','2015-09-26 10:13:53','2015-09-26 10:13:53','1','大大啊活动','大大啊活动','大大啊活动','<p>大大啊活动大大啊活动</p>','2015-09-26 10:14:06','3','{\"thumb\":\"\"}') [ RunTime:0.0006s ]
+SQL: INSERT INTO `tt_term_relationships` (`term_id`,`object_id`) VALUES ('7','24') [ RunTime:0.0006s ]
+
+[ 2015-09-26T10:14:08+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002759s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:14:10+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002696s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:14:17+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003020s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:14:32+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002679s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:14:35+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002960s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:14:38+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:14:40+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003116s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:28:08+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002994s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:28:19+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003019s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:28:20+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002960s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:28:52+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:28:54+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003178s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:29:17+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003284s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:29:38+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002825s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:30:43+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002790s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:31:28+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003184s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:32:20+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003055s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:38:07+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:38:22+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003205s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:38:38+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003098s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:38:50+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002790s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:39:40+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003952s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:40:32+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003731s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:41:12+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003076s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:41:29+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:42:10+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002714s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:42:12+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003469s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:42:43+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004055s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:43:26+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003376s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:43:57+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003277s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:44:15+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:47:54+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003287s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:48:18+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003379s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:50:49+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004654s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:51:51+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004168s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:52:07+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002814s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:52:59+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002891s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:53:49+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002538s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:55:21+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002713s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:57:01+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003266s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:57:19+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003307s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:57:34+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002982s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:57:44+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:57:47+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002508s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:57:48+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002757s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:57:52+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003139s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:57:54+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002544s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:58:04+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002827s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:58:17+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002717s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:58:19+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:58:21+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:58:23+08:00 ] ::1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002605s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+

@@ -1,0 +1,210 @@
+[ 2015-09-26T09:55:31+08:00 ] ::1 /index.php?g=&m=AdminPost&a=listorders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002793s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0119s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='1' WHERE `tid` = 22 [ RunTime:0.0008s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 21 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 20 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 19 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 18 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 17 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 16 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 14 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 13 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 12 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 11 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 10 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 9 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 8 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 7 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 6 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 5 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 15 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 3 [ RunTime:0.0003s ]
+
+[ 2015-09-26T09:55:36+08:00 ] ::1 /index.php?g=&m=AdminPost&a=listorders
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002909s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0101s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='2' WHERE `tid` = 21 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 20 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 19 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 18 [ RunTime:0.0007s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 17 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 16 [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 14 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 13 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 12 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 11 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 10 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 9 [ RunTime:0.0002s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 8 [ RunTime:0.0002s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 6 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 15 [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `tt_term_relationships` SET `listorder`='0' WHERE `tid` = 2 [ RunTime:0.0002s ]
+
+[ 2015-09-26T10:02:03+08:00 ] ::1 /index.php?g=&m=AdminPost&a=check&check=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0114s ]
+SQL: SELECT `object_id` FROM `tt_term_relationships` WHERE ( tid in (24) )  [ RunTime:0.0005s ]
+SQL: UPDATE `tt_posts` SET `post_status`='1' WHERE ( id in (23) ) [ RunTime:0.0005s ]
+
+[ 2015-09-26T10:11:18+08:00 ] ::1 /index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002615s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0106s ]
+SQL: DELETE FROM `tt_term_relationships` WHERE `object_id` = 18 AND `term_id` NOT IN ('9') [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_term_relationships` WHERE `object_id` = 18 AND `term_id` = '9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `status`='1' WHERE `object_id` = 18 AND `term_id` = '9' [ RunTime:0.0003s ]
+SQL: UPDATE `tt_posts` SET `post_modified`='2015-09-22 12:21:24',`post_status`='1',`istop`='0',`recommended`='0',`post_title`='国庆去九寨沟报名组团啦！',`activestarttime`='2015-09-22 12:21:24',`activefinishtime`='2015-09-22 12:21:24',`activecount`='2',`post_keywords`='',`post_source`='',`post_excerpt`='国庆去九寨沟报名组团啦！国庆去九寨沟报名组团啦！',`post_content`='<p>国庆去九寨沟报名组团啦！</p>',`smeta`='{\"thumb\":\"\"}' WHERE `id` = '18' [ RunTime:0.0008s ]
+
+[ 2015-09-26T10:14:29+08:00 ] ::1 /index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0109s ]
+SQL: DELETE FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` NOT IN ('7') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` = '7' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tt_term_relationships` SET `status`='1' WHERE `object_id` = 24 AND `term_id` = '7' [ RunTime:0.0004s ]
+SQL: UPDATE `tt_posts` SET `post_modified`='2015-09-26 10:13:53',`post_status`='1',`istop`='0',`recommended`='0',`post_title`='大大啊活动',`activestarttime`='2015-09-26 10:13:53',`activefinishtime`='2015-09-26 10:13:53',`activecount`='1',`post_keywords`='大大啊活动',`post_source`='大大啊活动',`post_excerpt`='大大啊活动',`post_content`='<p>大大啊活动大大啊活动</p>',`smeta`='{\"thumb\":\"\"}' WHERE `id` = '24' [ RunTime:0.0004s ]
+
+[ 2015-09-26T10:19:49+08:00 ] ::1 /index.php?g=&m=article&a=index&id=25
+ERR: XML标签语法错误 : condition="$activeendtime < now()"
+
+[ 2015-09-26T10:21:16+08:00 ] ::1 /index.php?g=&m=article&a=index&id=25
+ERR: XML标签语法错误 : condition="$activeendtime < date()"
+
+[ 2015-09-26T10:21:58+08:00 ] ::1 /index.php?g=&m=article&a=index&id=25
+ERR: XML标签语法错误 : condition="$activeendtime < $nowdate"
+
+[ 2015-09-26T10:22:28+08:00 ] ::1 /index.php?g=&m=article&a=index&id=25
+ERR: XML标签语法错误 : condition="$activeendtime < $nowdate"
+
+[ 2015-09-26T10:22:29+08:00 ] ::1 /index.php?g=&m=article&a=index&id=25
+ERR: XML标签语法错误 : condition="$activeendtime < $nowdate"
+
+[ 2015-09-26T10:31:13+08:00 ] ::1 /index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0116s ]
+SQL: DELETE FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` NOT IN ('7') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` = '7' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `status`='1' WHERE `object_id` = 24 AND `term_id` = '7' [ RunTime:0.0002s ]
+SQL: UPDATE `tt_posts` SET `post_modified`='2015-09-26 10:13:53',`post_status`='1',`istop`='0',`recommended`='0',`post_title`='大大啊活动',`activestarttime`='2015-09-26 10:13:53',`activefinishtime`='2015-09-30 10:13',`activecount`='1',`post_keywords`='大大啊活动',`post_source`='大大啊活动',`post_excerpt`='大大啊活动',`post_content`='<p>大大啊活动大大啊活动</p>',`smeta`='{\"thumb\":\"\"}' WHERE `id` = '24' [ RunTime:0.0004s ]
+
+[ 2015-09-26T10:38:34+08:00 ] ::1 /index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002870s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0152s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0131s ]
+SQL: DELETE FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` NOT IN ('7') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` = '7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `status`='1' WHERE `object_id` = 24 AND `term_id` = '7' [ RunTime:0.0004s ]
+SQL: UPDATE `tt_posts` SET `post_modified`='2015-09-26 10:13:53',`post_status`='1',`istop`='0',`recommended`='0',`post_title`='大大啊活动',`activestarttime`='2015-09-27 10:13',`activefinishtime`='2015-09-30 10:13:00',`activecount`='1',`post_keywords`='大大啊活动',`post_source`='大大啊活动',`post_excerpt`='大大啊活动',`post_content`='<p>大大啊活动大大啊活动</p>',`smeta`='{\"thumb\":\"\"}' WHERE `id` = '24' [ RunTime:0.0007s ]
+
+[ 2015-09-26T10:38:46+08:00 ] ::1 /index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003214s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0130s ]
+SQL: DELETE FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` NOT IN ('7') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` = '7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `status`='1' WHERE `object_id` = 24 AND `term_id` = '7' [ RunTime:0.0003s ]
+SQL: UPDATE `tt_posts` SET `post_modified`='2015-09-26 10:13:53',`post_status`='1',`istop`='0',`recommended`='0',`post_title`='大大啊活动',`activestarttime`='2015-09-27 10:13',`activefinishtime`='2015-09-30 10:13:00',`activecount`='11',`post_keywords`='大大啊活动',`post_source`='大大啊活动',`post_excerpt`='大大啊活动',`post_content`='<p>大大啊活动大大啊活动</p>',`smeta`='{\"thumb\":\"\"}' WHERE `id` = '24' [ RunTime:0.0004s ]
+
+[ 2015-09-26T10:57:15+08:00 ] ::1 /index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002891s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0114s ]
+SQL: DELETE FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` NOT IN ('7') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` = '7' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tt_term_relationships` SET `status`='1' WHERE `object_id` = 24 AND `term_id` = '7' [ RunTime:0.0003s ]
+SQL: UPDATE `tt_posts` SET `post_modified`='2015-09-26 10:13:53',`post_status`='1',`istop`='0',`recommended`='0',`post_title`='大大啊活动',`activestarttime`='2015-09-25 10:13',`activefinishtime`='2015-09-25 10:13',`activecount`='11',`post_keywords`='大大啊活动',`post_source`='大大啊活动',`post_excerpt`='大大啊活动',`post_content`='<p>大大啊活动大大啊活动</p>',`smeta`='{\"thumb\":\"\"}' WHERE `id` = '24' [ RunTime:0.0004s ]
+
+[ 2015-09-26T10:57:31+08:00 ] ::1 /index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003236s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0111s ]
+SQL: DELETE FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` NOT IN ('7') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` = '7' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tt_term_relationships` SET `status`='1' WHERE `object_id` = 24 AND `term_id` = '7' [ RunTime:0.0002s ]
+SQL: UPDATE `tt_posts` SET `post_modified`='2015-09-26 10:13:53',`post_status`='1',`istop`='0',`recommended`='0',`post_title`='大大啊活动',`activestarttime`='2015-09-25 10:13',`activefinishtime`='2015-09-30 10:13',`activecount`='1',`post_keywords`='大大啊活动',`post_source`='大大啊活动',`post_excerpt`='大大啊活动',`post_content`='<p>大大啊活动大大啊活动</p>',`smeta`='{\"thumb\":\"\"}' WHERE `id` = '24' [ RunTime:0.0004s ]
+
+[ 2015-09-26T10:57:41+08:00 ] ::1 /index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002889s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tt_terms` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `tt_term_relationships` [ RunTime:0.0114s ]
+SQL: DELETE FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` NOT IN ('7') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_term_relationships` WHERE `object_id` = 24 AND `term_id` = '7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tt_term_relationships` SET `status`='1' WHERE `object_id` = 24 AND `term_id` = '7' [ RunTime:0.0003s ]
+SQL: UPDATE `tt_posts` SET `post_modified`='2015-09-26 10:13:53',`post_status`='1',`istop`='0',`recommended`='0',`post_title`='大大啊活动',`activestarttime`='2015-09-25 10:13',`activefinishtime`='2015-09-30 10:13',`activecount`='2',`post_keywords`='大大啊活动',`post_source`='大大啊活动',`post_excerpt`='大大啊活动',`post_content`='<p>大大啊活动大大啊活动</p>',`smeta`='{\"thumb\":\"\"}' WHERE `id` = '24' [ RunTime:0.0004s ]
+

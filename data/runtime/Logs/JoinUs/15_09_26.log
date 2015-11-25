@@ -1,0 +1,83 @@
+[ 2015-09-26T09:56:05+08:00 ] ::1 /index.php?g=JoinUs&m=JoinUs&a=post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002649s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0125s ]
+SQL: SELECT `user_status` FROM `tt_users` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tt_join_us` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_join_us` WHERE `uid` = 3 AND `post_id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_login`,`user_email`,`user_nicename` FROM `tt_users` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW TABLES [ RunTime:0.0008s ]
+SQL: INSERT INTO `tt_join_us` (`post_table`,`post_id`,`to_uid`,`parentid`,`url`,`uid`,`full_name`,`email`,`createtime`) VALUES ('posts','18','0','0','index.php?g=&amp;m=article&amp;a=index&amp;id=18','3','test','test@qq.com','2015-09-26 09:56:05') [ RunTime:0.0005s ]
+SQL: UPDATE `tt_join_us` SET `path`='0-70' WHERE ( id=70 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0090s ]
+SQL: UPDATE `tt_posts` SET `applycount`=applycount+1 WHERE `id` = 18 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:14:39+08:00 ] ::1 /index.php?g=JoinUs&m=JoinUs&a=post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0147s ]
+SQL: SELECT `user_status` FROM `tt_users` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tt_join_us` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_join_us` WHERE `uid` = 3 AND `post_id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_login`,`user_email`,`user_nicename` FROM `tt_users` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW TABLES [ RunTime:0.0009s ]
+SQL: INSERT INTO `tt_join_us` (`post_table`,`post_id`,`to_uid`,`parentid`,`url`,`uid`,`full_name`,`email`,`createtime`) VALUES ('posts','24','0','0','index.php?g=&amp;m=article&amp;a=index&amp;id=25','3','test','test@qq.com','2015-09-26 10:14:39') [ RunTime:0.0005s ]
+SQL: UPDATE `tt_join_us` SET `path`='0-71' WHERE ( id=71 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0098s ]
+SQL: UPDATE `tt_posts` SET `applycount`=applycount+1 WHERE `id` = 24 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:57:46+08:00 ] ::1 /index.php?g=JoinUs&m=JoinUs&a=cancel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0125s ]
+SQL: SELECT `user_status` FROM `tt_users` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tt_join_us` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_join_us` WHERE `uid` = 3 AND `post_id` = 24 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user_login`,`user_email`,`user_nicename` FROM `tt_users` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `tt_join_us` WHERE `uid` = 3 AND `post_id` = 24 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0090s ]
+SQL: UPDATE `tt_posts` SET `applycount`=applycount-1 WHERE `id` = 24 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:57:48+08:00 ] ::1 /index.php?g=JoinUs&m=JoinUs&a=post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003352s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0122s ]
+SQL: SELECT `user_status` FROM `tt_users` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tt_join_us` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_join_us` WHERE `uid` = 3 AND `post_id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_login`,`user_email`,`user_nicename` FROM `tt_users` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW TABLES [ RunTime:0.0013s ]
+SQL: INSERT INTO `tt_join_us` (`post_table`,`post_id`,`to_uid`,`parentid`,`url`,`uid`,`full_name`,`email`,`createtime`) VALUES ('posts','24','0','0','index.php?g=&amp;m=article&amp;a=index&amp;id=25','3','test','test@qq.com','2015-09-26 10:57:48') [ RunTime:0.0005s ]
+SQL: UPDATE `tt_join_us` SET `path`='0-72' WHERE ( id=72 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0096s ]
+SQL: UPDATE `tt_posts` SET `applycount`=applycount+1 WHERE `id` = 24 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+
+[ 2015-09-26T10:58:22+08:00 ] ::1 /index.php?g=JoinUs&m=JoinUs&a=post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002832s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0128s ]
+SQL: SELECT `user_status` FROM `tt_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tt_join_us` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tt_join_us` WHERE `uid` = 1 AND `post_id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_login`,`user_email`,`user_nicename` FROM `tt_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW TABLES [ RunTime:0.0013s ]
+SQL: INSERT INTO `tt_join_us` (`post_table`,`post_id`,`to_uid`,`parentid`,`url`,`uid`,`full_name`,`email`,`createtime`) VALUES ('posts','24','0','0','index.php?g=&amp;m=article&amp;a=index&amp;id=25','1','admin','8888@qq.com','2015-09-26 10:58:22') [ RunTime:0.0003s ]
+SQL: UPDATE `tt_join_us` SET `path`='0-73' WHERE ( id=73 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tt_posts` [ RunTime:0.0096s ]
+SQL: UPDATE `tt_posts` SET `applycount`=applycount+1 WHERE `id` = 24 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: url D:\WWW\4452\application\Common\Controller\AppframeController.class.php 第 45 行.
+

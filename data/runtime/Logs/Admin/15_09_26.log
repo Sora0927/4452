@@ -1,0 +1,11 @@
+[ 2015-09-26T09:34:59+08:00 ] ::1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003207s ]
+SQL: SHOW COLUMNS FROM `tt_users` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `tt_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tt_role_user` [ RunTime:0.0172s ]
+SQL: SELECT `role_id` FROM tt_role_user a INNER JOIN tt_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0085s ]
+SQL: UPDATE `tt_users` SET `user_login`='admin',`user_pass`='cdf020c7e19221232f297a57a5a743894a0e4a801fc3c996',`user_nicename`='admin',`user_email`='8888@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='0.0.0.0',`last_login_time`='2015-09-26 09:34:59',`create_time`='2015-09-15 08:43:54',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1' WHERE `id` = '1' [ RunTime:0.0005s ]
+
